@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629627131A66EE23008420D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629627121A66EE23008420D9 /* main.m */; };
+		629627161A66EE23008420D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629627151A66EE23008420D9 /* AppDelegate.m */; };
+		629627191A66EE23008420D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629627181A66EE23008420D9 /* ViewController.m */; };
+		6296271C1A66EE23008420D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6296271A1A66EE23008420D9 /* Main.storyboard */; };
+		6296271E1A66EE23008420D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6296271D1A66EE23008420D9 /* Images.xcassets */; };
+		629627211A66EE23008420D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6296271F1A66EE23008420D9 /* LaunchScreen.xib */; };
+		6296272D1A66EE23008420D9 /* com_Jenel_Die_HardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6296272C1A66EE23008420D9 /* com_Jenel_Die_HardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629627271A66EE23008420D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629627051A66EE23008420D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6296270C1A66EE23008420D9;
+			remoteInfo = "com.Jenel.Die Hard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6296270D1A66EE23008420D9 /* com.Jenel.Die Hard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "com.Jenel.Die Hard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629627111A66EE23008420D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629627121A66EE23008420D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629627141A66EE23008420D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629627151A66EE23008420D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629627171A66EE23008420D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		629627181A66EE23008420D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6296271B1A66EE23008420D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6296271D1A66EE23008420D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		629627201A66EE23008420D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		629627261A66EE23008420D9 /* com.Jenel.Die HardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "com.Jenel.Die HardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6296272B1A66EE23008420D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6296272C1A66EE23008420D9 /* com_Jenel_Die_HardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_Jenel_Die_HardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6296270A1A66EE23008420D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629627231A66EE23008420D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629627041A66EE23008420D9 = {
+			isa = PBXGroup;
+			children = (
+				6296270F1A66EE23008420D9 /* com.Jenel.Die Hard */,
+				629627291A66EE23008420D9 /* com.Jenel.Die HardTests */,
+				6296270E1A66EE23008420D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6296270E1A66EE23008420D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6296270D1A66EE23008420D9 /* com.Jenel.Die Hard.app */,
+				629627261A66EE23008420D9 /* com.Jenel.Die HardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6296270F1A66EE23008420D9 /* com.Jenel.Die Hard */ = {
+			isa = PBXGroup;
+			children = (
+				629627141A66EE23008420D9 /* AppDelegate.h */,
+				629627151A66EE23008420D9 /* AppDelegate.m */,
+				629627171A66EE23008420D9 /* ViewController.h */,
+				629627181A66EE23008420D9 /* ViewController.m */,
+				6296271A1A66EE23008420D9 /* Main.storyboard */,
+				6296271D1A66EE23008420D9 /* Images.xcassets */,
+				6296271F1A66EE23008420D9 /* LaunchScreen.xib */,
+				629627101A66EE23008420D9 /* Supporting Files */,
+			);
+			path = "com.Jenel.Die Hard";
+			sourceTree = "<group>";
+		};
+		629627101A66EE23008420D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629627111A66EE23008420D9 /* Info.plist */,
+				629627121A66EE23008420D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629627291A66EE23008420D9 /* com.Jenel.Die HardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6296272C1A66EE23008420D9 /* com_Jenel_Die_HardTests.m */,
+				6296272A1A66EE23008420D9 /* Supporting Files */,
+			);
+			path = "com.Jenel.Die HardTests";
+			sourceTree = "<group>";
+		};
+		6296272A1A66EE23008420D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6296272B1A66EE23008420D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6296270C1A66EE23008420D9 /* com.Jenel.Die Hard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629627301A66EE23008420D9 /* Build configuration list for PBXNativeTarget "com.Jenel.Die Hard" */;
+			buildPhases = (
+				629627091A66EE23008420D9 /* Sources */,
+				6296270A1A66EE23008420D9 /* Frameworks */,
+				6296270B1A66EE23008420D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "com.Jenel.Die Hard";
+			productName = "com.Jenel.Die Hard";
+			productReference = 6296270D1A66EE23008420D9 /* com.Jenel.Die Hard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629627251A66EE23008420D9 /* com.Jenel.Die HardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629627331A66EE23008420D9 /* Build configuration list for PBXNativeTarget "com.Jenel.Die HardTests" */;
+			buildPhases = (
+				629627221A66EE23008420D9 /* Sources */,
+				629627231A66EE23008420D9 /* Frameworks */,
+				629627241A66EE23008420D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629627281A66EE23008420D9 /* PBXTargetDependency */,
+			);
+			name = "com.Jenel.Die HardTests";
+			productName = "com.Jenel.Die HardTests";
+			productReference = 629627261A66EE23008420D9 /* com.Jenel.Die HardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629627051A66EE23008420D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mary Jenel Myers";
+				TargetAttributes = {
+					6296270C1A66EE23008420D9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					629627251A66EE23008420D9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6296270C1A66EE23008420D9;
+					};
+				};
+			};
+			buildConfigurationList = 629627081A66EE23008420D9 /* Build configuration list for PBXProject "com.Jenel.Die Hard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629627041A66EE23008420D9;
+			productRefGroup = 6296270E1A66EE23008420D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6296270C1A66EE23008420D9 /* com.Jenel.Die Hard */,
+				629627251A66EE23008420D9 /* com.Jenel.Die HardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6296270B1A66EE23008420D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6296271C1A66EE23008420D9 /* Main.storyboard in Resources */,
+				629627211A66EE23008420D9 /* LaunchScreen.xib in Resources */,
+				6296271E1A66EE23008420D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629627241A66EE23008420D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629627091A66EE23008420D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629627191A66EE23008420D9 /* ViewController.m in Sources */,
+				629627161A66EE23008420D9 /* AppDelegate.m in Sources */,
+				629627131A66EE23008420D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629627221A66EE23008420D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6296272D1A66EE23008420D9 /* com_Jenel_Die_HardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629627281A66EE23008420D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6296270C1A66EE23008420D9 /* com.Jenel.Die Hard */;
+			targetProxy = 629627271A66EE23008420D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6296271A1A66EE23008420D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6296271B1A66EE23008420D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6296271F1A66EE23008420D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629627201A66EE23008420D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6296272E1A66EE23008420D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6296272F1A66EE23008420D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629627311A66EE23008420D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "com.Jenel.Die Hard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629627321A66EE23008420D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "com.Jenel.Die Hard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629627341A66EE23008420D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "com.Jenel.Die HardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.Jenel.Die Hard.app/com.Jenel.Die Hard";
+			};
+			name = Debug;
+		};
+		629627351A66EE23008420D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "com.Jenel.Die HardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.Jenel.Die Hard.app/com.Jenel.Die Hard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629627081A66EE23008420D9 /* Build configuration list for PBXProject "com.Jenel.Die Hard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6296272E1A66EE23008420D9 /* Debug */,
+				6296272F1A66EE23008420D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629627301A66EE23008420D9 /* Build configuration list for PBXNativeTarget "com.Jenel.Die Hard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629627311A66EE23008420D9 /* Debug */,
+				629627321A66EE23008420D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		629627331A66EE23008420D9 /* Build configuration list for PBXNativeTarget "com.Jenel.Die HardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629627341A66EE23008420D9 /* Debug */,
+				629627351A66EE23008420D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629627051A66EE23008420D9 /* Project object */;
+}
